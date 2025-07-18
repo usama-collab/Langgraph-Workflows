@@ -1,2 +1,13 @@
-.env
-langenv
+# Ignore virtual environments
+venv/
+langenv/
+.env/
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings
+.vscode/
